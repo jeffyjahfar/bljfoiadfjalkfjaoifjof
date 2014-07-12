@@ -1,0 +1,11 @@
+/* TEAM */
+               
+Made by Humaan      
+http://www.humaan.com.au
+Twitter: @wearehumaan       
+Location: Perth, Australia
+                            
+/* SITE */
+      
+Standards: HTML5, CSS3
+Software: Photoshop, Coda

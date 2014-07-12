@@ -1,0 +1,87 @@
+.scrollable {
+    width: 42%;
+    height: 76%;
+    max-width: 715px;
+    padding: 0 3% 0 0;
+    color: #fff;
+    position: absolute;
+    bottom: 32px;
+    overflow-y: auto;
+  }
+  .scrollable-grid { max-width:none; width:70%; height:85%; }
+  .scrollable-grid .contentWrap ul { width:100% !important; max-width:none !important; }
+
+  /*! jQuery Scrollbars | License: https://github.com/nathggns/Scrollbars/blob/master/LICENSE */
+
+.scrollElement.scrollRoot { overflow: hidden; }
+.rootWrap {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+.scrollElement.axisInUseX .rootWrap { overflow-x: hidden; }
+.scrollElement.axisInUseY .rootWrap { overflow-y: hidden; }
+
+.scrollElement.scrollRoot:focus {
+  outline: none;
+}
+
+.scrollElement.dragConX {
+  height: 5px;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.scrollElement.dragConY {
+  width: 10px;
+  top: 0;
+  height: 100%;
+  right: 0;
+}
+
+/* scroller background */
+.scrollElement.dragCon {
+  position: absolute;
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: url(images/scrollbar/line.png) repeat-y;
+}
+
+/* inner element */
+.scrollElement.drag {
+  /* background: #ccc; */
+  background: url(images/scrollbar/dot.png) no-repeat transparent;
+  position: absolute;
+  top: 0;
+  right:1px;
+}
+.scrollElement.drag:active, .scrollElement.drag:hover {
+  /* background: #ccc; */
+  background: url(images/scrollbar/reddot.png) no-repeat;
+}
+
+.scrollElement.dragX {
+  min-width: 5%;
+  max-width: 95%;
+  height: 100%;
+}
+
+.scrollElement.dragY {
+  min-height: 5%;
+  max-height: 95%;
+  width: 100%;
+}
+
+.scrollElement.dragConInner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.scrollElement.contentWrap {
+  float: left;
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+}
